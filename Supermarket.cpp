@@ -101,5 +101,6 @@ void Supermarket::PrintStatus()
         std::cout << " Clients Served :" << cashier->GetClientsServed() ;
         std::cout << " Client Producs Proce: " << cashier->GetCurrentClientProductsProcessed() << std::endl;
     }
-    
+    std::cout << std::endl;
+    std::cout << "Press 0-1 to Enable/Disable Cashier" << std::endl;
 }

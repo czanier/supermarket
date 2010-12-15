@@ -45,7 +45,8 @@ int main()
         
         dia.RunSimulation(interval);
         dia.PrintStatus();
-        
+	cout << endl;
+        cout << "[ESC] to close" << endl;
         gettimeofday(&end, NULL);
         interval = (end.tv_sec  - start.tv_sec) + (end.tv_usec - start.tv_usec)/1000000.0f;
     }while(key != 27);
